@@ -44,7 +44,7 @@ namespace HW2
             {
                 foreach (var val in row)
                 {
-                    Console.Write(val.ToString("0.0") + " ");
+                    Console.Write(val.ToString("0") + " ");
                 }
                 Console.WriteLine();
             }
@@ -52,7 +52,7 @@ namespace HW2
             //  average
             double average = sum / (rows * cols);
 
-            Console.WriteLine($"\nSum: {sum:0.0}; Average: {average:0.0}");
+            Console.WriteLine($"\nSum: {sum:0}; Average: {average:0.}");
         }
     }
 }
